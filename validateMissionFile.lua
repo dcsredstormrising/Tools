@@ -217,8 +217,8 @@ local function setF5Options(unit, sideName)
 end
 
 print("Checking bases for problems")
---missionUtils.iterBases(mission, "Syria", function(baseName, warehouse, isAirbase)
-missionUtils.iterBases(mission, "Caucuses", function(baseName, warehouse, isAirbase)
+missionUtils.iterBases(mission, "Syria", function(baseName, warehouse, isAirbase)
+--missionUtils.iterBases(mission, "Caucuses", function(baseName, warehouse, isAirbase)
     setWeaponsUnlimited(baseName, warehouse)
     if isAirbase and warehouse.coalition:lower() ~= "neutral" then
         print("ERROR: Base is not neutral " .. baseName .. " (is " .. warehouse.coalition .. ")")
