@@ -30,6 +30,7 @@ local fuelSettings = {
     L_39ZA = { capacity = 823.2, fraction = 0.82 },
     M_2000C = { capacity = 3165, fraction = 1.0 },
     Mi_8MT = { capacity = 1929, fraction = 0.4 },
+	Mi_24V = { capacity = 1929, fraction = 0.4 },
     MiG_15bis = { capacity = 1172, fraction = 1.0 },
     MiG_19P = { capacity = 1800, fraction = 1.0 },
     MiG_21Bis = { capacity = 2280, fraction = 1.0 },
@@ -60,6 +61,7 @@ local ropeLengths = {
     Ka_50 = 15,
     Mi_8MT = 15,
     UH_1H = 10,
+	Mi_24V = 15
 }
 
 local radioSettings = {
